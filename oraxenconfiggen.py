@@ -2,15 +2,6 @@ import os
 import tkinter as tk
 from tkinter import filedialog, simpledialog, messagebox
 
-'''
-Step 1: Defining Item Templates
-
-These are the templates I personally use.
-
-Future commits will implement additional customizeability with the values available. For now, I've added base values that work for my server. If you find yourself using this before that's added, make sure to change it to base values that work for your server!
-
-Config templates are divided by item and sittable. The item template lacks a "seat" value whilst sittable has one.
-'''
 item_template = """
 {item_name}:
   itemname: <white>{display_name}
