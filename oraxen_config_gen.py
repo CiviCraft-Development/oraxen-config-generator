@@ -51,7 +51,7 @@ sittable_template = """
     custom_model_data: {custom_model_data}
 """
 
-class OraxenConfigGen:
+class Oraxen_Config_Gen:
     def __init__(self, root):
         self.root = root
         self.root.title("Oraxen Configuration Generator")
@@ -140,6 +140,6 @@ class OraxenConfigGen:
 
 if __name__ == "__main__":
     root = tk.Tk()
-    app = OraxenConfigGen(root)
+    app = Oraxen_Config_Gen(root)
 
     root.mainloop()
